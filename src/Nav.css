@@ -1,0 +1,37 @@
+.navContainer{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    background: #1d2020;
+    margin: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) 0 1px 2px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    /* z-index: 99; */
+}
+.navLeft{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 20px;
+    height: 40px;
+}
+
+.flash-logo{
+    font-family: "Bangers", cursive;
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin: 0 10px;
+    color: whitesmoke;
+}
+
+.navright{
+    margin-right: 50px;
+}
+
+.myprofile{
+    font-size: 32px;
+    color: whitesmoke;
+    font-weight: 800;
+}
